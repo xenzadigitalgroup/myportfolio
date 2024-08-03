@@ -1,0 +1,14 @@
+1. Install Pythone pada Microsoft Store atau pada website resmi Py
+2. Integrasi Py dengan menekan tombol Path saat di install
+3. Cek pada cmd atau Command Prompt untuk mengecek apakah Py telah benar terinstal atau belum
+   denga cara menuliskan syntax "Pythone" dan nantik akan keluar versi py yang telah kamu install
+4. Install vscode, karena pada contoh kali ini kita akan menggunakan vscode
+5. Jika vscode telah terinstall, maka tekan pada Extensions pada sebelah kiri halaman lalu cari Python pada kolom pencarian 
+   kemudian install
+6. Terdapat 3 Extensions yang perlu di install, yaitu : Python, Python Debugger, dan Python Indent
+7. Setlah melakukan seluruh langkah di atas, kamu sudah siap untuk menjalankan Python, dan untuk contoh kode
+   cek pada file berikutnya
+8. Saya berharap kamu tidak mengcoppy seluruh codenya, silahkan contoh, pelajari, dan dipahami agar kamu lebih terbiasa
+   dan lebih memahami syntax code pada python
+
+#CopyRight ZAKI MUSHTHAFA BILLAH 2024

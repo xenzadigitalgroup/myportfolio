@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Materi JavaScript</title>
+    <!-- <link rel="stylesheet" href="../style/style.css"> -->
+    <link rel="stylesheet" href="../style/style-table.css">
+</head>
+<body>
+<!-- Isi dari halaman-->
+<article class="table-widget" style="margin-top: 150px;">
+    <div class="caption">
+        <h2>JavaScript</h2>
+        <button type="button" class="export-btn"> 
+            <!-- SVG Icon -->
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier"> <path d="M16.4405 8.8999C20.0405 9.2099 21.5105 11.0599 21.5105 15.1099V15.2399C21.5105 19.7099 19.7205 21.4999 15.2505 21.4999H8.74047C4.27047 21.4999 2.48047 19.7099 2.48047 15.2399V15.1099C2.48047 11.0899 3.93047 9.2399 7.47047 8.9099" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> 
+            <g opacity="0.4"> <path d="M12 15.0001V3.62012" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15.3504 5.85L12.0004 2.5L8.65039 5.85" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g>
+            </svg>
+            Upload Latihan
+        </button>
+    </div>
+<table>
+    <thead>
+        <tr>
+            <th>Bagian</th>
+            <th>Status</th>
+            <th>Download Materi</th>
+        </tr>
+    </thead>
+    <tbody id="team-member-rows">
+    <tr>
+        <td class="team-member-profile">
+            <div class="profile-info">
+                <div class="profile-info_name">Part 1</div>
+                <div class="profile-info_alias">@Python</div>
+            </div>
+        </td>
+        <td>
+            <div class="status">
+                <p class="status_circle status--active"></p>
+                <p class="status_circle" style="margin-bottom: 30px;">Active</p>
+            </div>
+        </td>
+        <td>
+            <div class="tags">
+                <button class="tag tag--marketing" style="cursor: pointer;" onclick="downloadFile('Materi_Js/01_Pengenalan_JavaScript.rar')">Download Materi</button>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="team-member-profile">
+            <div class="profile-info">
+                <div class="profile-info_name">Part 2</div>
+                <div class="profile-info_alias">@Python</div>
+            </div>
+        </td>
+        <td>
+            <div class="status">
+                <p class="status_circle status--ongoing"></p>
+                <p class="status_circle" style="margin-bottom: 30px;">Ongoing</p>
+            </div>
+        </td>
+        <td>
+            <div class="tags">
+                <button class="tag tag--marketing" style="cursor: pointer;" onclick="downloadFile('#')">Download Materi</button>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="team-member-profile">
+            <div class="profile-info">
+                <div class="profile-info_name">Part 7</div>
+                <div class="profile-info_alias">@Python</div>
+            </div>
+        </td>
+        <td>
+            <div class="status">
+                <p class="status_circle status--ongoing"></p>
+                <p class="status_circle" style="margin-bottom: 30px;">Ongoing</p>
+            </div>
+        </td>
+        <td>
+            <div class="tags">
+                <button class="tag tag--marketing" style="cursor: pointer;" onclick="downloadFile('#')">Download Materi</button>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="team-member-profile">
+            <div class="profile-info">
+                <div class="profile-info_name">Part 8</div>
+                <div class="profile-info_alias">@Python</div>
+            </div>
+        </td>
+        <td>
+            <div class="status">
+                <p class="status_circle status--ongoing"></p>
+                <p class="status_circle" style="margin-bottom: 30px;">Ongoing</p>
+            </div>
+        </td>
+        <td>
+            <div class="tags">
+                <button class="tag tag--marketing" style="cursor: pointer;" onclick="downloadFile('#')">Download Materi</button>
+            </div>
+        </td>
+    </tr>
+    <!-- Repeat similar code for other parts -->
+    
+</tbody>
+</table>
+<footer>
+    <div class="footer-tombol">
+        <p>&copy; 2024 XENZA DIGITAL GROUP. All Rights Reserved.</p>
+    </div>
+</footer>
+</article>
+
+<script>
+    function downloadFile(filePath) {
+        window.location.href = filePath;
+    }
+</script>
+</body>
+</html>
